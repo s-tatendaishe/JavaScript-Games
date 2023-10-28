@@ -10,7 +10,7 @@ if (answer.toLowerCase() === "y") {
   if (answer2 === "left") {
     console.log("Oops, you go left and fall of a bridge! You lost!");
   } else {
-    // right
+    
     console.log("Nice! You go right and approach a bridge...");
     const answer3 = prompt(
       "Would you like to cross the bridge, or turn around and find another way (cross/turn)? "
